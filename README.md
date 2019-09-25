@@ -1,7 +1,7 @@
 # AMS-PowerMeter
 Server scripts and firmware (esp8266) for handling MBus (HAN) data from Norwegian AMS power meters.
 
-## Projects
+## Projects (Code is targeting InfluxDB + Grafana, code should be edited to fit your needs)
  * PowerMeter_client - Client source for ESP8266 (depends on [PlatformIO](https://platformio.org/platformio-ide))
  * nodejs_server - Server source written in node.js (no dependencies, only standard library)
  * python_server - Server source written in python 3 (depends on "influxdb")
