@@ -7,7 +7,7 @@ Server scripts and firmware (esp8266) for handling MBus (HAN) data from Norwegia
  * python_server - Server source written in python 3 (depends on "influxdb")
  
 ## Hardware used
- * ESP-01[S] (ESP8266) [AliExpress Search](https://www.aliexpress.com/af/esp%25252d01s.html?SearchText=esp%252d01s&d=y&initiative_id=SB_20190925124558&origin=n&catId=0&isViewCP=y&jump=afs&switch_new_app=y) (any esp8266 module should work)
+ * ESP-01/01S (ESP8266) [AliExpress Search](https://www.aliexpress.com/af/esp%25252d01s.html?SearchText=esp%252d01s&d=y&initiative_id=SB_20190925124558&origin=n&catId=0&isViewCP=y&jump=afs&switch_new_app=y) (any esp8266 module should work)
  * M-Bus to TTL converter [AliExpress Search](https://www.aliexpress.com/af/tss721a-ttl.html?SearchText=tss721a+ttl&d=y&initiative_id=SB_20190925125227&origin=n&catId=0&isViewCP=y&jump=afs&switch_new_app=y)
  * Some kind of power source, I run both the MCU and the converter on 3.3v from a Buck-Boost converter supplied 5v.
 
@@ -29,7 +29,7 @@ Connect or solder the following wires:
 ESP-01 Pins | Connect to
 ----------- | ----------
 VCC/3.3v | Power supply 3.3v
-Ground | Power supply ground
+GND/Ground | Power supply ground
 RX | MBus converter TX
 CH_EN/EN | ESP-01 VCC/3.3v or Power supply 3.3v
 
